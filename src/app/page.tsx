@@ -321,9 +321,9 @@ export default function HomePage() {
             className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight"
           >
             <span className="block">Real-time</span>
-            <span className="gradient-text glitch-text">Macro Detection</span>
+            <span className="gradient-text glitch-text">Auto Clicker Detection</span>
             <span className="block text-3xl md:text-4xl mt-2 font-normal text-muted-foreground">
-              for Mobile Games
+              for Android
             </span>
           </motion.h1>
 
@@ -331,9 +331,9 @@ export default function HomePage() {
             variants={fadeInUp}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            A security solution that analyzes Android MotionEvent data in real-time
-            to detect macros, auto-clickers, and automation tools while protecting
-            game integrity.
+            A security SDK that analyzes Android MotionEvent data in real-time
+            to detect auto-clickers, touch automation tools, and macro programs
+            while protecting your app integrity.
           </motion.p>
 
           <motion.div
@@ -475,7 +475,7 @@ export default function HomePage() {
             <ModeCard
               mode="block"
               title="Active Protection"
-              description="Displays a warning and safely terminates the app when macros are detected. Recommended for production."
+              description="Displays a warning and safely terminates the app when auto-clickers are detected. Recommended for production."
               icon={Ban}
               color="magenta"
               features={[
@@ -784,8 +784,8 @@ export default function HomePage() {
               {[
                 {
                   step: "01",
-                  title: "Copy DLL Files",
-                  desc: "Copy MacroDetector DLL files to your Plugins folder",
+                  title: "Purchase & Import",
+                  desc: "Purchase from Unity Asset Store and import into your Unity project via Package Manager",
                 },
                 {
                   step: "02",
@@ -926,8 +926,8 @@ export default function HomePage() {
               variants={fadeInUp}
               className="text-muted-foreground text-lg max-w-xl mx-auto mb-10"
             >
-              Protect your game from macros and automation tools with MacroDetector
-              and create a fair play environment.
+              Protect your Android app from auto-clickers and automation tools
+              with MacroDetector and create a fair play environment.
             </motion.p>
 
             <motion.div
@@ -964,7 +964,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-sm text-muted-foreground">
-              Macro Detection SDK for Unity Android Games
+              Auto Clicker Detection SDK for Android
             </div>
 
             <span className="text-sm text-muted-foreground">
